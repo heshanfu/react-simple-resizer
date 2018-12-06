@@ -60,7 +60,7 @@ interface ContainerProps extends HTMLAttributes<HTMLDivElement> {
 > Determine that whether using vertical layout or not, default is `false`.
 
 ##### onActivate
-> Triggered when any [`Bar`](#bar) activated. i.e, [onMouseDown](https://developer.mozilla.org/en/docs/Web/Events/mousedown) or [onTouchStart](https://developer.mozilla.org/en-US/docs/Web/Events/touchstart).
+> Triggered when any [`Bar`](#bar-) activated. i.e, [onMouseDown](https://developer.mozilla.org/en/docs/Web/Events/mousedown) or [onTouchStart](https://developer.mozilla.org/en-US/docs/Web/Events/touchstart).
 
 ##### beforeApplyResizer
 > Used to [customize resize behavior](#customize-resize-behavior). In this method, you __don't__ need to call [`applyResizer`](#applyresizer) to apply the resize result. Please note that you should not do any side effect on this method. If you want to do something after the resizing, see [`afterResizing`](#afterresizing) below.
